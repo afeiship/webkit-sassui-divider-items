@@ -1,0 +1,21 @@
+/*webkit-sassui-divider-items Start*/
+$webkit-sassui-divider-items-options: (
+  color: rgba(#ccc, 0.8)
+) !default;
+
+.webkit-sassui-divider-items {
+  $color: map-get(
+    $map: $webkit-sassui-divider-items-options,
+    $key: color
+  );
+
+  display: flex;
+  > .item {
+    text-align: center;
+    flex: 1;
+    & + .item {
+      border-left: 0.55px solid $color;
+    }
+  }
+}
+/*webkit-sassui-divider-items End*/

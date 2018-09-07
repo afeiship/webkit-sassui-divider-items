@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-divider-items",
+  "description": "Items divide by a slim line",
+  "main": [
+    "dist/webkit-sassui-divider-items.css",
+    "dist/webkit-sassui-divider-items.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "divider-items"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-sassui-divider-items",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
