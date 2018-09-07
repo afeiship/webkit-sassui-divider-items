@@ -2,7 +2,6 @@
 .webkit-sassui-divider-items {
   display: flex; }
   .webkit-sassui-divider-items > .item {
-    text-align: center;
     flex: 1; }
     .webkit-sassui-divider-items > .item + .item {
       border-left: 0.55px solid rgba(204, 204, 204, 0.8); }
